@@ -57,7 +57,7 @@ export const OnboardingWizard = () => {
       {step === 2 && (
         <div className="card">
           <h1>First, what type of business are you?</h1>
-          <p>This will help us preload some sensible defaults for you.</p>
+          <p>We'll tailor your setup to get you started faster.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
             <button onClick={() => { setTemplate('Salon'); setStep(3); }}>Salon</button>
             <button onClick={() => { setTemplate('Spa'); setStep(3); }}>Spa</button>
