@@ -59,9 +59,27 @@ export const OnboardingWizard = () => {
           <h1>First, what type of business are you?</h1>
           <p>We'll tailor your setup to get you started faster.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
-            <button onClick={() => { setTemplate('Salon'); setStep(3); }}>Salon</button>
-            <button onClick={() => { setTemplate('Spa'); setStep(3); }}>Spa</button>
-            <button onClick={() => { setTemplate('Fitness'); setStep(3); }}>Fitness</button>
+            <button onClick={() => {
+              setTemplate('Salon');
+              setServiceName("Women's Haircut");
+              setServicePrice('75');
+              setServiceDuration('60');
+              setStep(3);
+            }}>Salon</button>
+            <button onClick={() => {
+              setTemplate('Spa');
+              setServiceName('60-Minute Signature Facial');
+              setServicePrice('95');
+              setServiceDuration('60');
+              setStep(3);
+            }}>Spa</button>
+            <button onClick={() => {
+              setTemplate('Fitness');
+              setServiceName('Personal Training Session');
+              setServicePrice('50');
+              setServiceDuration('45');
+              setStep(3);
+            }}>Fitness</button>
           </div>
         </div>
       )}
