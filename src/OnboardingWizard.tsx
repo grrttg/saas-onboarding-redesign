@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // A simple progress tracker component
 const ProgressTracker = ({ currentStep }: { currentStep: number }) => {
