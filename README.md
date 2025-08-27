@@ -41,9 +41,3 @@ I built this prototype rapidly using Cursor AI. This allowed me to focus on the 
 "In my OnboardingWizard component, add the necessary useState hooks to manage the following data points through the flow: template (string), serviceName (string), servicePrice (string), and serviceDuration (string). Initialize them with sensible defaults."
 
 This AI-augmented workflow allowed me to build this entire functional prototype in under two hours.
-
----
-
-### Note on Mangomint
-
-I built this project specifically to explore the challenges and opportunities in SaaS onboarding for the salon and spa industry. The mission of this prototype—to improve time-to-value and create an elegant first impression—directly aligns with the goals of Mangomint's Onboarding Engineer role.
