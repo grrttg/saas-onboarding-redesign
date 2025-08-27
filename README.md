@@ -1,5 +1,5 @@
 Onboarding Redesign: The "Studio in an Hour" Demo
-LIVE DEMO LINK: [You will add your Vercel link here later]
+LIVE DEMO LINK: https://saas-onboarding-redesign-riak.vercel.app/
 
 This project is a high-fidelity prototype that proves a complex, friction-filled SaaS onboarding process can be redesigned into a fast, intuitive, and value-driven user experience.
 
